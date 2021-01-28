@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class Header extends React.Component{
+  render(){
+    return(
+      <div className='container'>
+       <header>
+      
+           <div className='two columns menu'><a href='#catalog'>Продукция</a></div>
+           <div className='two columns menu'> <a href='#Delivery'> Доставка</a></div>
+           <div className='two columns menu'> <a href='#contact'> Контакты </a></div>
+           <div className='three columns menu'> <div className='tel'>E-mail: info@idohan.ru </div>  </div>
+           <div className='three columns menu' id='tel'> <div className='tel'> +7(983)-699-95-99</div></div>
+        
+       </header>
+      </div>
+    )
+  }
 }
-
-export default App;
+export default Header;

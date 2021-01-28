@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+header{
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+.menu{
+    margin-bottom: 2%;
+}
+#nameCompany{
+    margin-top: 15%;
+    text-align: center;
+    font: solid;
+    font-size: 50px;
+
+}
+#cosmetics{
+    font-size: 30px;
+}
+
+#tel{
+    padding-right: 5%;
+    text-align: right;
+}
+#pic,#pic1, #pic3{
+width: 100%;
+}
+#pic{
+    margin-top: 10%;
+}
+
+.mainHeight{
+    height:auto;
+}
+
+
+
+.bottonCatalog{
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 15%;
+}
+
+.font{
+    padding-left: 20px;
+    font-size: 50px ;
+    text-decoration: underline;
+    text-align: left; 
+}
+
+
+
+.mask{
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left; 
+
+}
+
+li{
+    font-size: 20px;
+}
+
+#pic2{
+  
+    width: 100%;
+    border-radius: 10px;    
+
+}   
+
+ul{
+    height: 190px;
+}
+
+.delivery{
+    height: 50%;
+    border-left: solid;
+    padding-left: 50px;
+    font-size: 2em;
+    }
+
+br{
+margin-top: 200px;
+}
+
+.delivery li{
+    font-size: 1em;
+}
+.main
+{
+    background-image:url(main.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.contact{
+    margin-top: 200px;
+    font-size: 2em;
+}
+
+.map{
+    width: 100%;
+}
+
+footer{
+    padding-top: 2%;
+    text-align: center;
+}
+.footer{
+    border-top: solid 3px;
+  
+}
+
+
+/*----FREAME 500*/
+@media (max-width: 550px) {
+    
+    .font{
+        text-align: center;
+    }
+     .delivery{
+        font-size: 20px
+    }
+    
+    .contact{
+        margin-top: 10px;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    #pic{
+        margin-top: 0%;
+        
+    }
+    .bottonCatalog{
+        
+        text-align: left;
+        margin-top: 15%;
+
+    }
+
+    .tel{
+        text-align: center;
+    }
+
+    .mainHeight{
+        height:auto;
+    }
+    .bottonCatalog{
+        padding-left: 20px;
+        text-align: center;
+        margin-top: 15%;
+    }
+}
+
+@media (min-width: 800px) {
+    #tel{
+        padding-right: 5%;
+        text-align: right;
+        font-size: 0.8em;
+    }
+
+    #tel{
+        padding-right: 5%;
+        text-align: right;
+        font-size: 0.8em;
+    }
+
+}
