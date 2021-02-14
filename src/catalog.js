@@ -1,6 +1,7 @@
 import React from 'react';
 import ImgTest from './imgTest'
 
+/* Production */
 
 class Catalog extends React.Component{
   render(){

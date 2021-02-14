@@ -2,6 +2,7 @@ import React from 'react'
 
 import { YMaps, Map, Placemark } from 'react-yandex-maps';
 
+/* create placemark on the map  */
 
 class YaMap extends React.Component{
      render()
@@ -13,7 +14,7 @@ class YaMap extends React.Component{
 }
 
 
-
+/* create placemark on the map  */
 class Contact extends React.Component{
     
    
@@ -28,7 +29,7 @@ class Contact extends React.Component{
                 <div className='container mainHeight'>
                     <div className='twelve columns '>
                        
-                        <div className='font' id='contact'>КОНТАКТЫ</div>
+                        <div className='font'> <h2> КОНТАКТЫ</h2></div>
 
                         <div className='six columns'>
                          <div className='contact'> г.Иркутск, ул.Баумана 237/1 <br/>+7(983)699-95-99</div>

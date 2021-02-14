@@ -9,6 +9,7 @@ import Delivary from './Delivary'
 import Contact from './contact';
 import Footer from './footer'
 
+
 class All extends React.Component{
   render(){
     return(
